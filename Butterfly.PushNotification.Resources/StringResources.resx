@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Code_0001" xml:space="preserve">
+    <value>0001_Push Notification Message object cannot be null or empty.</value>
+  </data>
+  <data name="Code_0002" xml:space="preserve">
+    <value>0002_Invalid Push Notification Type. The valid &amp; supported values are Toast, Tile &amp; Raw.</value>
+  </data>
+  <data name="Code_0003" xml:space="preserve">
+    <value>0003_The encoded Param value must be 256 characters or less.</value>
+  </data>
+  <data name="Code_0004" xml:space="preserve">
+    <value>0004_The Param value is not supported by the Windows Phone 7.0 Device. It is only supported for Windows Phone 7.1 and above. The provided value will be ignored.</value>
+  </data>
+  <data name="Code_0005" xml:space="preserve">
+    <value>0005_The BackBackgroundImageUri value is not supported by the Windows Phone 7.0 Device. It is only supported for Windows Phone 7.1 and above. The provided value will be ignored.</value>
+  </data>
+  <data name="Code_0006" xml:space="preserve">
+    <value>0006_The BackTitle value is not supported by the Windows Phone 7.0 Device. It is only supported for Windows Phone 7.1 and above. The provided value will be ignored.</value>
+  </data>
+  <data name="Code_0007" xml:space="preserve">
+    <value>0007_The BackContent value is not supported by the Windows Phone 7.0 Device. It is only supported for Windows Phone 7.1 and above. The provided value will be ignored.</value>
+  </data>
+  <data name="Code_0008" xml:space="preserve">
+    <value>0008_The maximum allowed tile count is 99. A greater value will be automatically truncated to 99 by the MPNS. No error will be thrown. If you want a greater value, try using the Back Tile properties with a string.</value>
+  </data>
+  <data name="Code_0009" xml:space="preserve">
+    <value>0009_You have requested secure notifications but no certificate was found. Please provide a X509 Certificate in the authentication settings.</value>
+  </data>
+  <data name="Code_0010" xml:space="preserve">
+    <value>0010_The Notification Uri cannot be null or empty. Please provide a valid channel Uri.</value>
+  </data>
+  <data name="Code_0011" xml:space="preserve">
+    <value>0011_Invalid Message Priority. The valid &amp; supported values are Realtime, Priority &amp; Regular.</value>
+  </data>
+
+  <data name="Code_0012" xml:space="preserve">
+    <value>0012_Windows Phone Callback Registration Request object cannot be null or empty.</value>
+  </data>
+  <data name="Code_0013" xml:space="preserve">
+    <value>0013_The Callback Uri cannot be null or empty. Please provide a valid callback Uri.</value>
+  </data>
+  <data name="Code_0014" xml:space="preserve">
+    <value>0014_The Callback Message cannot be null. Please provide a valid payload.</value>
+  </data>
+  <data name="Code_0015" xml:space="preserve">
+    <value>0015_The Callback Message size cannot exceed 1 KB. Please provide a payload with valid size.</value>
+  </data>
+  <data name="ResponseComments_200_Received_Connected_Active" xml:space="preserve">
+    <value>The notification request was accepted and queued for delivery. This status does not mean the device has received the notification. It indicates only that the server has received the notification and queued it for delivery at the next possible opportunity for the device. The server could respond with this status even though the device is currently transitioning into an unreachable state. This means the notification would not be delivered until the device returns from the unreachable state.</value>
+  </data>
+  <data name="ResponseComments_200_Received_TempDisconnected_Active" xml:space="preserve">
+    <value>The notification request was accepted and queued for delivery. However, the device is temporarily disconnected. This response code can occur for a variety of reasons, including but not limited to: 
+    To reduce network load and latency, mobile operator network configurations can vary greatly in the amount of time a persistent data connection is allowed to live. The Push Notification Client attempts to mitigate these persistent data connection limitations, but there is a lower bound after which it is power inefficient to mitigate this situation. This may lead to devices experiencing the “OK/Received/Temporarily Disconnected/Active” state as a result of the data connection being interrupted.
+The device is outside the coverage area of their carrier and the user has chosen to disable data connection when roaming.
+The device has a Pay-As-You-Go plan and has temporarily disabled the data connection or has a restrictive data plan option.
+The device is on the edge of a coverage area and the data connection is not reliable.
+If Wi-Fi is being used and cellular data is not available, the device must have a clear path to the Internet in order for push notifications to be received – this can be problematic on some corporate networks.
+The device is alternating between cell and Wi-Fi connections and the connection is not in a steady state.</value>
+  </data>
+  <data name="ResponseComments_200_QueueFull_Connected_Active" xml:space="preserve">
+    <value>Queue overflow. The web service should re-send the notification later. A best practice is to use an exponential backoff algorithm in minute increments.</value>
+  </data>
+  <data name="ResponseComments_200_QueueFull_TempDisconnected_Active" xml:space="preserve">
+    <value>Queue overflow. The web service should re-send the notification later. A best practice is to use an exponential backoff algorithm in minute increments.</value>
+  </data>
+  <data name="ResponseComments_200_Suppressed_Connected_Active" xml:space="preserve">
+    <value>The push notification was received and dropped by the Push Notification Service. The Suppressed status can occur if the notification channel was configured to suppress push notifications for a particular push notification class.</value>
+  </data>
+  <data name="ResponseComments_200_Suppressed_TempDisconnected_Active" xml:space="preserve">
+    <value>The push notification was received and dropped by the Push Notification Service. The Suppressed status can occur if the notification channel was configured to suppress push notifications for a particular push notification class.</value>
+  </data>
+  <data name="ResponseComments_400_NotApplicable_NotApplicable_NotApplicable" xml:space="preserve">
+    <value>This error occurs when the web service sends a notification request with a bad XML document or malformed notification URI.</value>
+  </data>
+  <data name="ResponseComments_401_NotApplicable_NotApplicable_NotApplicable" xml:space="preserve">
+    <value>Sending this notification is unauthorized. This error can occur for one of the following reasons:
+There is a mismatch between the subject name of the certificate on the web service and the subject name of the certificate on the Push Notification Service.
+If the token has been modified.
+If the token is not valid for its subscription.</value>
+  </data>
+  <data name="ResponseComments_404_Dropped_Connected_Expired" xml:space="preserve">
+    <value>The subscription is invalid and is not present on the Push Notification Service. The web service should stop sending new notifications to this subscription, and drop the subscription state for its corresponding application session.</value>
+  </data>
+  <data name="ResponseComments_404_Dropped_TempDisconnected_Expired" xml:space="preserve">
+    <value>The subscription is invalid and is not present on the Push Notification Service. The web service should stop sending new notifications to this subscription, and drop the subscription state for its client.</value>
+  </data>
+  <data name="ResponseComments_404_Dropped_Disconnected_Expired" xml:space="preserve">
+    <value>The subscription is invalid and is not present on the Push Notification Service. The web service should stop sending new notifications to this subscription, and drop the subscription state for its client.</value>
+  </data>
+  <data name="ResponseComments_405_NotApplicable_NotApplicable_NotApplicable" xml:space="preserve">
+    <value>Invalid method (PUT, DELETE, CREATE). Only POST is allowed when sending a notification request.</value>
+  </data>
+  <data name="ResponseComments_406_Dropped_Connected_Active" xml:space="preserve">
+    <value>This error occurs when an unauthenticated web service has reached the per-day throttling limit for a subscription. The web service can try to re-send the push notification every hour after receiving this error. The web service may need to wait up to 24 hours before normal notification flow will resume.</value>
+  </data>
+  <data name="ResponseComments_406_Dropped_TempDisconnected_Active" xml:space="preserve">
+    <value>This error occurs when an unauthenticated web service has reached the per-day throttling limit for a subscription. The web service can try to re-send the push notification every hour after receiving this error. The web service may need to wait up to 24 hours before normal notification flow will resume.</value>
+  </data>
+  <data name="ResponseComments_412_Dropped_Inactive_NotApplicable" xml:space="preserve">
+    <value>The device is in an inactive state. The web service may re-attempt sending the request one time per hour at maximum after receiving this error. If the web service violates the maximum of one re-attempt per hour, the Push Notification Service will de-register or permanently block the web service.</value>
+  </data>
+  <data name="ResponseComments_503_NotApplicable_NotApplicable_NotApplicable" xml:space="preserve">
+    <value>The Push Notification Service is unable to process the request. The web service should re-send the notification later. A best practice is to use an exponential backoff algorithm in minute increments.</value>
+  </data>
+</root>

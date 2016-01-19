@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{153F1502-1C8E-4723-A9FD-2955EE234804}"
+	ProjectSection(SolutionItems) = preProject
+		Butterfly.vsmdi = Butterfly.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Butterfly.PushNotification", "Butterfly.PushNotification\Butterfly.PushNotification.csproj", "{8A4E0EF7-6FA6-4723-A5DD-024CFEED445C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Butterfly.PushNotification.UnitTest", "Butterfly.PushNotification.UnitTest\Butterfly.PushNotification.UnitTest.csproj", "{3E5527F7-DBE5-4DA7-9D43-9336AAAD0086}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Butterfly.PushNotification.Resources", "Butterfly.PushNotification.Resources\Butterfly.PushNotification.Resources.csproj", "{6CEC1D04-E702-4E6F-8B6E-C832986FF034}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://rajatfs.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Butterfly.PushNotification\\Butterfly.PushNotification.csproj
+		SccProjectName1 = Butterfly.PushNotification
+		SccLocalPath1 = Butterfly.PushNotification
+		SccProjectUniqueName2 = Butterfly.PushNotification.UnitTest\\Butterfly.PushNotification.UnitTest.csproj
+		SccProjectName2 = Butterfly.PushNotification.UnitTest
+		SccLocalPath2 = Butterfly.PushNotification.UnitTest
+		SccProjectUniqueName3 = Butterfly.PushNotification.Resources\\Butterfly.PushNotification.Resources.csproj
+		SccProjectName3 = Butterfly.PushNotification.Resources
+		SccLocalPath3 = Butterfly.PushNotification.Resources
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A4E0EF7-6FA6-4723-A5DD-024CFEED445C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A4E0EF7-6FA6-4723-A5DD-024CFEED445C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A4E0EF7-6FA6-4723-A5DD-024CFEED445C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A4E0EF7-6FA6-4723-A5DD-024CFEED445C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E5527F7-DBE5-4DA7-9D43-9336AAAD0086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E5527F7-DBE5-4DA7-9D43-9336AAAD0086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E5527F7-DBE5-4DA7-9D43-9336AAAD0086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E5527F7-DBE5-4DA7-9D43-9336AAAD0086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CEC1D04-E702-4E6F-8B6E-C832986FF034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CEC1D04-E702-4E6F-8B6E-C832986FF034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CEC1D04-E702-4E6F-8B6E-C832986FF034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CEC1D04-E702-4E6F-8B6E-C832986FF034}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Butterfly.vsmdi
+	EndGlobalSection
+EndGlobal

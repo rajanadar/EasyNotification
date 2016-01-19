@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8A4E0EF7-6FA6-4723-A5DD-024CFEED445C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Butterfly.PushNotification</RootNamespace>
+    <AssemblyName>Butterfly.PushNotification</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Extensions.cs" />
+    <Compile Include="Types\Classes\PushNotificationSendResult.cs" />
+    <Compile Include="Types\Classes\WindowsPhoneCallbackRegistrationRequest.cs" />
+    <Compile Include="Types\Classes\WindowsPhoneAuthenticationSettings.cs" />
+    <Compile Include="Types\Classes\WindowsPhoneRawPushNotificationMessage.cs" />
+    <Compile Include="Types\Classes\WindowsPhoneToastPushNotificationMessage.cs" />
+    <Compile Include="Types\Classes\WindowsPhoneTilePushNotificationMessage.cs" />
+    <Compile Include="Types\Classes\WindowsPhonePushNotificationMessage.cs" />
+    <Compile Include="Types\Classes\PushNotificationMessage.cs" />
+    <Compile Include="Types\Classes\WindowsPhoneCallbackRegistrationResponse.cs" />
+    <Compile Include="Types\Classes\ValidationResults.cs" />
+    <Compile Include="Types\Classes\ValidationResult.cs" />
+    <Compile Include="Types\Enums\ValidationMessageType.cs" />
+    <Compile Include="Types\Enums\MessagePriority.cs" />
+    <Compile Include="Types\Enums\ResultType.cs" />
+    <Compile Include="Types\Enums\SubscriptionStatus.cs" />
+    <Compile Include="Types\Enums\DeviceConnectionStatus.cs" />
+    <Compile Include="Types\Enums\PushNotificationStatus.cs" />
+    <Compile Include="Types\Enums\DeviceType.cs" />
+    <Compile Include="Types\Enums\PushNotificationType.cs" />
+    <Compile Include="Validator.cs" />
+    <Compile Include="PushNotifier.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Butterfly.PushNotification.Resources\Butterfly.PushNotification.Resources.csproj">
+      <Project>{6CEC1D04-E702-4E6F-8B6E-C832986FF034}</Project>
+      <Name>Butterfly.PushNotification.Resources</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
