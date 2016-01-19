@@ -2,9 +2,8 @@
 
 ## *A .NET Push Notification Helper Library for Windows Phone.*
 
-### (close to 1000 downloads from Nuget and Codeplex)
-
-Easy Notification 1.0.0 is also available as a NuGet Package [here](nuget.org/packages/easynotification). Package ID is **EasyNotification**
+Download from Nuget: (Package ID is **EasyNotification**)
+### https://www.nuget.org/packages/EasyNotification 
 
 **'Easy Notification'** is a C# 4.0 Push Notification helper library that provides a simple interface to send **Toast, Tile, Raw** and other notifications to Windows Phone devices. 
 
