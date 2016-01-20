@@ -26,7 +26,7 @@ var result = PushNotifier.SendPushNotificationMessage(toastMessage);
 
 **Special Features:**
 
-- **Provides suggestions on next steps as per [MSDN](http://msdn.microsoft.com/en-us/library/ff941100(VS.92).aspx), based on the response.**
+- **Provides suggestions on next steps as per [MSDN](https://msdn.microsoft.com/library/windows/apps/ff941100(v=vs.105).aspx), based on the response.**
 - **Supports synchronous & asynchronous methods to send notifications.**
 - **Supports authenticated notifications using X509 Certificates. (not many libraries do this.)**
 - **Supports Callback Registration Requests. (not many libraries out there do this.)**
