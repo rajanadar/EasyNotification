@@ -4,6 +4,8 @@
 
 ### <a href="https://www.nuget.org/packages/EasyNotification" target="_blank">https://www.nuget.org/packages/EasyNotification</a> 
 
+[![Build status](https://ci.appveyor.com/api/projects/status/clomp4staa6hdus5/branch/master?svg=true)](https://ci.appveyor.com/project/rajanadar/easynotification/branch/master)
+
 **'Easy Notification'** is a C# 4.0 Push Notification helper library that provides a simple interface to send **Toast, Tile, Raw** and other notifications to Windows Phone devices. 
 
 * As an app developer, creating and sending notifications is a tedious process, because of the Http requests/responses involved.
