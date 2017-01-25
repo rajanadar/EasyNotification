@@ -9,6 +9,7 @@ namespace Butterfly.PushNotification.UnitTest
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 
     [TestClass]
+    [Ignore]
     public class WindowsPhonePushNotificationMessageUnitTest
     {
         private static string ChannelUri = "http://sn1.notify.live.net/throttledthirdparty/01.00/AAGzPwlglj32Tb0TrwbNIClIAgAAAAADAQAAAAQUZm52OjIzOEQ2NDJDRkI5MEVFMEQ";
